@@ -46,7 +46,8 @@ const StockSchema = new Schema(
     },
     {
         collection: 'stocks',
-    }
+    },
+    // hiii my name is het
 );
 
 export const Stock = mongoose.model('Stock', StockSchema);
